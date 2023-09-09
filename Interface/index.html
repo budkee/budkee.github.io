@@ -5,26 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="design.css">
-    <title> siriusb.udke | Home</title>
+    
+    <!--Google-Fonts-CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!--Google-Fonts-CSS-CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!--Ion-Iconic-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    
+    <!--Dev-Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <title>Camila de Oliveira Budke</title>
 </head>
 <body>
     <header> 
-        <h1>Home</h1>
-        <nav> <!-- barra de navegação -->
-            <ul> <!-- unordered list -->
-                <a href="../pages/alexandria.html">Alexandria</a> |   
-                <a href="../pages/projetos-web.html">Desenvolvimento Web</a> |   
-                <a href="../pages/projetos-ds.html">Data Science</a> |   
-            </ul>
-        </nav>
+
+        
     </header>
-    <body>
-        <section id="conteudo"></section>
-    </body>
-    <footer> <!-- rodapé -->
-        <p>Copyright 2023</p>
-    </footer>
+
+    <!-- Conteúdo do Site -->
+    <main id="container">
+        
+        <aside id="bio-container">
+            
+            <h2>Camila de Oliveira Budke</h2>
+
+            <img id="bio-image" src="../img/foto-perfil.jpg" alt="Camila de Oliveira Budke">
+            
+            <p>Olá, meu nome é Camila de Oliveira Budke e sou <span class="highlight">Engenheira de Dados</span> e <span class="highlight">Desenvolvedora Full Stack Python</span>.</p>
+
+            <p id="welcome-text">Seja bem-vinde!</p>
+
+            <ul id="social-container">
+            
+              <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+
+            </ul>
+
+            <div id="email-container">
+              <ion-icon name="mail-outline"></ion-icon><a href="mailto:camila.budke@gmail.com">camila.budke@gmail.com</a>
+            </div>
+
+        </aside>
+
+        <section id="about-container">
+            
+            <h1 id="name">Camila de Oliveira Budke</h1>
+            <!-- barra de navegação -->
+            <nav> 
+                <!-- lista de navegação -->
+                <ul>
+                    <!-- links de navegação -->
+                    <a href="../pages/alexandria.html">Alexandria</a> |   
+                    <a href="../pages/fullstack_python.html">Dev Web</a> |   
+                    <a href="../pages/projetos-ds.html">Data Science</a> |   
+                </ul>
+            </nav>
+            
+            <section id="conteudo"></section>
+            
+        </section>
+        
+        
+    </main>
+
+    <!--Scripts-->
+    <!--Visualizar o conteúdo de outra página na seção #conteudo por uma requisição Ajax-->
     <script>
+
         document.querySelectorAll('a').forEach(link => {
             const conteudo = document.getElementById('conteudo')
 
@@ -36,7 +90,9 @@
             }
         })
     </script>
+    <!--CDN-Ion-Ionic-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
 
-    
 </body>
 </html>
