@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../Fontes/Montserrat-Regular.ttf') format('truetype');
+}
+
+* {
+    font-size: 16px;
+}
+body { 
+    font-family: 'montserrat';
+    margin: 0;
+    min-height: 100%;
+    width: auto;
+}
+
+
+
+h1 {
+    height: 5rem;
+    margin: 2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+nav {
+    width: auto;
+    height: 19vh;
+    padding: 5vh;
+    display: flex;
+        /* coloca os blocos um do lado do outro */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+}
+
+
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+    padding-right: 3rem;
+}
+
+
+.menu-mobile div {
+    width: 32px;
+    height: 3px;
+    background: #fff;
+    margin: 8px;
+
+}
+
+
+.menu {
+    list-style: none; 
+      /* Retira o bullet da lista */ 
+    background-color: black;
+    
+    margin: auto;
+    padding: 8px;
+    border: 2px;
+}
+
+
+.menu li {
+    
+    display: inline-flex; 
+    letter-spacing: 2px;
+    background-color: #00dbc3;
+    
+    
+    margin: 4px;
+    padding: 8px 20px;
+    
+    border: 4px solid black;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+        /* borda arredondada */
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.menu li:hover {
+    cursor: pointer;
+    background-color: #1e9889;
+}
+hgroup {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.logo { 
+    margin: auto;
+    height: 4rem;
+    width: 17rem;
+    margin-left: 1rem;
+    padding: 4px;
+}
+
+.sociais {
+    /* sizes */
+    width: auto;
+    height: auto;
+    padding: 0px;
+
+    display: list-item;
+}
+
+
+
+@media (max-width: 800px){
+    .menu-mobile {
+        display: block;
+
+    }
+    .body {
+        overflow-x: hidden;
+            /* esconde a parte deslocada */
+    }
+    .menu {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 60vh;
+        background: inherit;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+            /* desloca para direita */
+    }
+    .menu li {
+        margin-left: 0px;
+    
+    }
+    
+}
