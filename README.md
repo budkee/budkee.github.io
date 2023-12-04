@@ -1,9 +1,5 @@
 # Configurando o ambiente de Desenvolvimento
 
-    git init
-    git remote add origin (ssh)
-    git push 
-
 
 ## Links e Referências
 
