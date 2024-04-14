@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Blog</strong> <span>on Going..</span></a>
+						<a href="blog.html" class="logo"><strong>Blog</strong> <span>on Going..</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -29,13 +29,13 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="em-andamento.html">Projetos</a></li>
+							<li><a href="projetos.html">Projetos</a></li>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="sobre.html">Carreira</a></li>
 						</ul>
 						<ul class="actions stacked">
-							<li><a href="https://html5up.net/forty" class="button primary fit">Forty Template by HTML5 UP</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<!--<li><a href="https://html5up.net/forty" class="button primary fit">Forty Template by HTML5 UP</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>-->
 						</ul>
 					</nav>
 
@@ -43,10 +43,10 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>Sobre o que vamos falar hoje?</h1>
+								<h1>Blog</h1>
 							</header>
 							<div class="content">
-								<p>No blog escrevo sobre alguns problemas que passei e passo ao ter que lidar a minha stack. <br>Aqui você pode ver um pouco dos encontros e desencontros que vivencio ao desenvolver meus projetos. <br/></p>
+								<p>Problemas, dicas, ensaios, entre outros escritos. <br>Aqui compartilho contigo um pouco dos encontros e desencontros que vivencio ao desenvolver meus projetos. <br/></p>
 								<ul class="actions">
 									<li><a href="#one" class="button next scrolly">Últimos posts</a></li>
 								</ul>
@@ -64,7 +64,7 @@
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="./_site/jekyll/update/2024/04/12/como-fazer-suco-de-polpa.html" class="link">Como fazer um suco de polpa?</a></h3>
+										<h3><a href="como-fazer-suco-de-polpa.html" class="link">Como fazer um suco de polpa?</a></h3>
 										<p>Fresquinho e delicioso!</p>
 									</header>
 								</article>
@@ -73,8 +73,8 @@
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="finalizados.html" class="link">Finalizados</a></h3>
-										<p>Resultados e Aprendizados...</p>
+										<h3><a href="jekyll.html" class="link">Jekyll: crie seu portfólio de projetos com Ruby</a></h3>
+										<p>Faça deploy pelo GitHub</p>
 									</header>
 								</article>
 								<article>
@@ -82,8 +82,8 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="blog.html" class="link">Blog</a></h3>
-										<p>Dicas, impressões e relatos</p>
+										<h3><a href="design-ux.html" class="link">Design UX/UI: compreendendo o usuário</a></h3>
+										<p>O que é, como aplicar, ferramentas e cursos.</p>
 									</header>
 								</article>
 								<article>
@@ -91,8 +91,8 @@
 										<img src="images/pic06.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project-management.html" class="link">Gestão de Projetos</a></h3>
-										<p>Minha Stack para Gestão de Projetos</p>
+										<h3><a href="eng-soft.html" class="link">Engenharia de Software</a></h3>
+										<p>Ciclo de vida adaptado à Discentes</p>
 									</header>
 								</article>
 								<article>
@@ -100,8 +100,8 @@
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="web.html" class="link">Desenvolvimento Web</a></h3>
-										<p>Minha Stack para Web</p>
+										<h3><a href="dev-ops.html" class="link">DevOps, CI/CD e Infraestrutura Operacional</a></h3>
+										<p>O que é, como implementar, ferramentas, cursos e referências.</p>
 									</header>
 								</article>
 								<article>
@@ -109,8 +109,8 @@
 										<img src="images/pic05.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="data-science.html" class="link">Ciência de Dados</a></h3>
-										<p>Minha Stack para Dados</p>
+										<h3><a href="data-science.html" class="link">Análise, Ciência e Engenharia de Dados</a></h3>
+										<p>Qual é a real diferença entre eles?</p>
 									</header>
 								</article>
 							</section>
@@ -131,73 +131,72 @@
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
+				<section id="contact">
+					<div class="inner">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Nome</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Mensagem</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Enviar" class="primary" /></li>
+									<li><input type="reset" value="Limpar" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split">
 							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="mail:to:">kae.budke@gmail.com</a>
+								</div>
 							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Telefone</h3>
+									<span>+55 (67) 99262-6362</span>
+								</div>
 							</section>
-						</div>
-					</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-home"></span>
+									<h3>Atualmente em</h3>
+									<span>Home-Office<br />
+									Campo Grande, MS<br />
+									Brasil</span>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://twitter.com/_budke" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.instagram.com/budke_/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/budkee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/kaebudke/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Copyright</li><li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
 
 			</div>
 
