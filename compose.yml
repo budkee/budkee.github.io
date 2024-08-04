@@ -1,0 +1,28 @@
+services:
+  jekyll_server:
+    container_name: jekyll_server
+    build: ./jekyll
+    ports:
+      - 4000:4000
+    volumes:
+      - ./src:/site
+    env_file:
+      - .env
+    networks:
+      - miscellium
+
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - jekyll_server
+    networks:
+      - miscellium
+
+networks:
+  miscellium:
+    driver: bridge

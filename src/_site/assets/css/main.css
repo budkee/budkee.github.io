@@ -1,6 +1,37 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+/* Estilo inicial do span */
+#dynamic-title {
+	display: inline-block;
+	position: relative;
+}
+
+/* Animação para deslizar para dentro */
+@keyframes slide-in {
+	from {
+	  opacity: 0;
+	  transform: translateX(-100%);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateX(0);
+	}
+  }
+  
+/* Animação para deslizar para fora */
+@keyframes slide-out {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+}
+
+
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
