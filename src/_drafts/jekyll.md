@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bem vind@ ao Jekyll!"
 ---
 
 # Snippets 
 {% highlight ruby %}
 def print_hi(name)
-  puts "Hi, #{name}"
+  puts "Oi, #{name}"
 end
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+#=> imprime 'Oi, Tom' no STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Confira a [documentação do Jekyll][jekyll-docs] para mais informações sobre como aproveitar ao máximo o Jekyll. Relate todos os bugs/solicitações de recursos no [repositório do Jekyll no GitHub][jekyll-gh]. Se tiver perguntas, você pode fazê-las no [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

@@ -37,20 +37,20 @@ kramdown:
   # Define o destaque de sintaxe para o Kramdown, que será usado para colorir o código
   syntax_highlighter: rouge
 
-# Geral do site
+# --------------------------- Geral do site ---------------------------
 title: Meu Portfólio
 subtitle: by Kaê
-email: kae.budke@gmail.com
+email: contato@budkee.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Bem-vinde ao meu portfólio de projetos pessoais. Aqui você pode ver um pouco do quê e do como desenvolvo meus projetos. Também escrevo sobre alguns 'bizus' que passei e passo ao ter que lidar a minha stack, cê pode tá conferindo aqui. 
+  Bem-vinde ao meu portfólio de projetos pessoais. Aqui você pode ver um pouco do quê e do como desenvolvo meus projetos. Também escrevo sobre alguns problemas que passei e passo ao ter que lidar a minha stack, tanto tecnológica como de gestão. 
 url: "https://budkee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: budkee.me
+# domain: budkee.me
 
 city: Campo Grande
 state: MS
 zip_code: 79060300
-country: Brazil
+country: Brasil
 
 
 # Homepage tiles
@@ -65,15 +65,17 @@ socials:
   GitHub: https://github.com/budkee 
   Instagram: https://www.instagram.com/budke_/
   LinkedIn: https://www.linkedin.com/in/kaebudke/
-  Twitter: https://twitter.com/_budke
 
 # Build settings
-# theme: 
+markdown: kramdown
+# theme: minima
 plugins:
   - jekyll-feed
-markdown: kramdown
+  - Jekyll-seo-tag
 sass:
   style: compressed
+github:
+  token: false
 
 
 # Exclude from processing.

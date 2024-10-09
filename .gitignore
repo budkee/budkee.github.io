@@ -67,3 +67,8 @@ Forty_README.md
 
 # Domain
 CNAME
+
+# Jekyll
+_site/
+.jekyll-cache
+.jekyll-metadata

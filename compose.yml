@@ -1,7 +1,8 @@
 services:
   jekyll_server:
     container_name: jekyll_server
-    build: ./jekyll
+    build: .
+    # image: jekyll_server:latest
     ports:
       - 4000:4000
     volumes:
