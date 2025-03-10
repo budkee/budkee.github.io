@@ -1,0 +1,19 @@
+@use '../variaveis' as v;
+
+footer {
+    background-color: v.$dark;
+    color: v.$light;
+    padding: 2rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+    a {
+        text-decoration: none;
+        color: v.$light;
+        
+        &:hover {
+            color: v.$hover;
+        }
+    }
+}

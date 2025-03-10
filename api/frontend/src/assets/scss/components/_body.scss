@@ -1,0 +1,30 @@
+@use '../animations' as *;
+@use '../variaveis' as v;
+@use '../fonts' as f;
+@use '../mixins' as m;
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+    main {        
+
+        @extend .bg-parallax;
+        
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+        flex: 1; /* Faz o conteúdo expandir para ocupar o espaço restante */
+        min-height: 100vh;
+        
+        h1 {
+            color: v.$light;
+        }
+        
+    }
+    
+}

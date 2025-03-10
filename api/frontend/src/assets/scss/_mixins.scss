@@ -1,0 +1,36 @@
+@use 'variaveis' as v;
+@use 'fonts' as f;
+@use "sass:color";
+
+
+@mixin campos() {
+    
+    margin: 1rem;
+    padding: 1rem;
+    border: 2rem;
+    height: 1rem;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+@mixin custom-button($bg-color, $text-color, $border-color, $hover-bg, $hover-border) {
+    background-color: $bg-color;
+    color: $text-color;
+    border-color: $border-color;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: $hover-bg;
+      border-color: $hover-border;
+      cursor: pointer;
+    }
+}
+
+@mixin justifySpaceBetween() {
+    
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+    align-items: center;
+    
+}
