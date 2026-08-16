@@ -1,5 +1,5 @@
 # Última atualização: 03/08/24
-# Imagem adaptada de: https://github.com/BretFisher/jekyll-serve/blob/main/Dockerfile
+# Imagem adaptada de: https://githucb.com/BretFisher/jekyll-serve/blob/main/Dockerfile
 
 FROM ruby:3.3.4-slim-bullseye AS jekyll
 

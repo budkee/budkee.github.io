@@ -1,3 +1,10 @@
+---
+title: "Portfólio | Finalizados"
+header_class: "alt style2"
+logo_text: "Portfólio"
+logo_subtitle: "de Projetos"
+logo_href: "index.html"
+---
 <!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
@@ -6,9 +13,10 @@
 -->
 <html>
 	<head>
-		<title>Portfólio | Finalizados</title>
+		<title>{{ page.title | escape }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{% include head-favicon.html %}
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -17,28 +25,9 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
+				<!-- Header + Menu -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Portfólio</strong> <span>de Projetos</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="projetos.html">Projetos</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="sobre.html">Carreira</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<!--<li><a href="https://html5up.net/forty" class="button primary fit">Forty Template by HTML5 UP</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>-->
-						</ul>
-					</nav>
+					{% include header-menu.html %}
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
@@ -156,7 +145,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="mail:to:">kae.budke@gmail.com</a>
+										<a href="mailto:kae.budke@gmail.com">kae.budke@gmail.com</a>
 									</div>
 								</section>
 								<section>
@@ -180,19 +169,7 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://twitter.com/_budke" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.instagram.com/budke_/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/budkee" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/kaebudke/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Copyright</li><li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+					{% include site-footer.html %}
 
 			</div>
 

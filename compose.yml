@@ -6,6 +6,7 @@ services:
       - 4000:4000
     volumes:
       - ./src:/site
+      - ./.git:/site/.git:ro
     env_file:
       - .env
     networks:

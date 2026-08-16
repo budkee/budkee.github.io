@@ -1,19 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2024-10-09T23:51:06+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Meu Portfólio</title><subtitle>Bem-vinde ao meu portfólio de projetos pessoais. Aqui você pode ver um pouco do quê e do como desenvolvo meus projetos. Também escrevo sobre alguns &apos;bizus&apos; que passei e passo ao ter que lidar a minha stack, cê pode tá conferindo aqui. </subtitle><entry><title type="html">Como fazer um suco de polpa?</title><link href="http://0.0.0.0:4000/jekyll/update/2024/04/12/como-fazer-suco-de-polpa.html" rel="alternate" type="text/html" title="Como fazer um suco de polpa?" /><published>2024-04-12T00:00:00+00:00</published><updated>2024-04-12T00:00:00+00:00</updated><id>http://0.0.0.0:4000/jekyll/update/2024/04/12/como-fazer-suco-de-polpa</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2024/04/12/como-fazer-suco-de-polpa.html"><![CDATA[<h2 id="ingredientes">Ingredientes</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T21:42:46+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Meu Portfólio</title><subtitle>Bem-vinde ao meu portfólio de projetos pessoais. Aqui você pode ver um pouco do quê e do como desenvolvo meus projetos. Também escrevo sobre alguns &apos;bizus&apos; que passei e passo ao ter que lidar a minha stack, cê pode tá conferindo aqui. </subtitle><entry><title type="html">Inteligência Artificial: Fundamentos</title><link href="http://0.0.0.0:4000/blog/jekyll/update/2026/08/16/ia-fundamentos.html" rel="alternate" type="text/html" title="Inteligência Artificial: Fundamentos" /><published>2026-08-16T00:00:00+00:00</published><updated>2026-08-16T00:00:00+00:00</updated><id>http://0.0.0.0:4000/blog/jekyll/update/2026/08/16/ia-fundamentos</id><content type="html" xml:base="http://0.0.0.0:4000/blog/jekyll/update/2026/08/16/ia-fundamentos.html"><![CDATA[<h2 id="introdução">Introdução</h2>
+
+<p>A Inteligência Artificial (IA) refere-se a um campo da ciência da computação que desenvolve algoritmos e sistemas capazes de simular a inteligência humana. Ela permite que as máquinas processem grandes quantidades de dados, aprendam com eles e executem tarefas complexas de forma autônoma. Sua importância atual é inegável, pois a IA está transformando diversos setores, desde a medicina até a indústria, possibilitando análises avançadas, automação de tarefas, tomada de decisão precisa e interações mais intuitivas com a tecnologia.</p>
+
+<p>O aprendizado de máquina (AM), uma das mais diversas áreas existentes na IA, tem o potencial de revolucionar muitos setores e melhorar nossas vidas diárias de várias maneiras. As implicações práticas do aprendizado de máquina são vastas e variadas, entre tantas, temos:</p>
 
 <ul>
-  <li>[] 1 polpa de fruta</li>
-  <li>[] 600ml de água gelada (laranja ou leite)</li>
+  <li>Reconhecimento de imagem e fala</li>
+  <li>Processamento de linguagem natural</li>
+  <li>Detecção de fraude</li>
+  <li>Sistemas de recomendação</li>
+  <li>Manutenção preditiva</li>
+  <li>Diagnóstico médico</li>
+  <li>Veículos autônomos</li>
+  <li>Previsão financeira</li>
+  <li>Previsão do tempo</li>
 </ul>
 
-<h2 id="modo-de-preparo">Modo de preparo</h2>
+<h2 id="a-ia-e-a-sociedade">A IA e a Sociedade</h2>
 
-<blockquote>
-  <p>Bata tudo no liquidificador e aproveite seu suco!</p>
-</blockquote>
+<p>Alguns estudiosos da área, como Costa Júnior e outros colaboradores (2023), observam de forma positiva a utilização das ferramentas de IA como apoio ao Ensino Superior, destacando como benefícios a eficiência e eficácia do ensino, aumento do acesso ao conhecimento e redução de custos. Entretanto, os autores também enfatizam o uso responsável e ético da IA dentro do ambiente acadêmico e a necessidade de políticas e práticas para promover esse uso.</p>
 
-<h2 id="dicas-de-lavagem">Dicas de lavagem</h2>
+<p>Com a capacidade de lidar com dados em escala e identificar padrões ocultos, a IA impulsiona a inovação, aumenta a eficiência e melhora a qualidade de vida das pessoas. No entanto, é fundamental considerar questões éticas e garantir um desenvolvimento responsável para que a IA seja utilizada de maneira benéfica e segura para a sociedade como um todo.</p>
 
 <ul>
-  <li>Após transferir o suco para uma jarra, adicione água e detergente (ou sabão) e bata o conteúdo até ficar bem espumoso.</li>
-  <li>Jogue fora o conteúdo, passe uma água e deixe secar!</li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Ingredientes]]></summary></entry></feed>
+  <li>[Maio, 2023] Uso da IA no Ensino Superior: “Sua utilização pode ajudar a tornar o processo de aprendizagem mais dinâmico, através da adesão a sistemas de tutoria inteligente que podem ajudar os alunos a aprender de forma mais rápida e eficiente.”</li>
+</ul>
+
+<h2 id="desafios-e-oportunidades-da-ia">Desafios e oportunidades da IA</h2>
+
+<p>Essa complexidade torna desafiador para o público leigo entender plenamente todas as nuances e detalhes de cada área da IA. Além disso, o rápido avanço tecnológico na área pode tornar ainda mais difícil acompanhar as últimas descobertas e desenvolvimentos. Novos algoritmos, técnicas e abordagens são constantemente introduzidos, o que exige atualização e aprendizado contínuos.</p>
+
+<p>A falta de conhecimento sobre as diversas áreas da IA pode levar ao surgimento de equívocos e interpretações errôneas. Por exemplo, o uso incorreto de termos como “inteligência artificial” pode criar uma percepção exagerada das capacidades atuais da tecnologia ou gerar expectativas irreais.</p>
+
+<p>Para lidar com essa lacuna de conhecimento, é importante promover a divulgação e a conscientização sobre a IA para o público em geral. Isso pode ser feito por meio de iniciativas educacionais, programas de divulgação, materiais de fácil compreensão e comunicação clara sobre os benefícios, limitações e ética envolvidos na IA. Dessa forma, o público leigo poderá ter uma compreensão melhor informada e mais precisa sobre as diferentes áreas da IA, permitindo uma participação mais consciente e crítica em discussões e decisões relacionadas à tecnologia.</p>
+
+<ul>
+  <li>[Abril, 2023] Principais desafios: “Por meio dos métodos de seleção e classificação foram analisados 40 artigos, que sinalizam que as principais áreas da ciência que estão utilizando a Inteligência Artificial como inovação tecnológica são ciência da computação, engenharias e ciências sociais.”</li>
+  <li>[2023] Perspectivas para o direito privado brasileiro: “As implicações práticas deste artigo são abordar os desafios urgentes e relevantes relacionados à regulamentação da Inteligência Artificial (IA) e seu impacto nos aspectos legais e éticos da sociedade. O documento enfatiza a necessidade de uma abordagem multidisciplinar para enfrentar os desafios impostos pela IA e garantir que a estrutura legal seja baseada nos princípios da dignidade humana e dos direitos fundamentais. O documento também destaca a necessidade de uma abordagem global e transnacional para enfrentar os desafios impostos pela IA.” - SciSpace</li>
+  <li>[2021] Responsabilidade Digital Organizacional: relação hermenêutica entre [1] a pertinência da criação de uma nova matéria para a responsabilidade social tradicional em contextos digitais e a [2] necessidade epistemológica da responsabilidade social nas novas tecnologias.</li>
+</ul>]]></content><author><name></name></author><category term="blog" /><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Introdução]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/images/.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/images/.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Guia prático: como criar e publicar novos posts</title><link href="http://0.0.0.0:4000/blog/2026/08/16/como-criar-novos-posts.html" rel="alternate" type="text/html" title="Guia prático: como criar e publicar novos posts" /><published>2026-08-16T00:00:00+00:00</published><updated>2026-08-16T00:00:00+00:00</updated><id>http://0.0.0.0:4000/blog/2026/08/16/como-criar-novos-posts</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2026/08/16/como-criar-novos-posts.html"><![CDATA[<h2 id="objetivo">Objetivo</h2>
+
+<p>Este guia existe para facilitar o processo de criação de novos posts no portfólio, mantendo padronização visual, consistência de conteúdo e publicação segura.</p>
+
+<h2 id="1-crie-a-base-do-post">1) Crie a base do post</h2>
+
+<p>Comece a partir do modelo em <a href="src/_drafts/post-template.md">src/_drafts/post-template.md</a>.</p>
+
+<p>Campos obrigatórios no front matter:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">layout: post</code></li>
+  <li><code class="language-plaintext highlighter-rouge">title: "..."</code></li>
+  <li><code class="language-plaintext highlighter-rouge">date: YYYY-MM-DD</code></li>
+</ul>
+
+<p>Campos recomendados:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">categories: blog</code></li>
+  <li><code class="language-plaintext highlighter-rouge">tags: [tag1, tag2]</code></li>
+  <li><code class="language-plaintext highlighter-rouge">image: images/pic01.jpg</code></li>
+  <li><code class="language-plaintext highlighter-rouge">excerpt: "Resumo curto para o card da página de blog"</code></li>
+</ul>
+
+<h2 id="2-nomeie-o-arquivo-corretamente">2) Nomeie o arquivo corretamente</h2>
+
+<p>Use o padrão:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YYYY-MM-DD-slug-do-post.md</code></p>
+
+<p>Exemplo:</p>
+
+<p><code class="language-plaintext highlighter-rouge">2026-08-16-como-criar-novos-posts.md</code></p>
+
+<h2 id="3-estruture-o-conteúdo">3) Estruture o conteúdo</h2>
+
+<p>Sugestão de estrutura:</p>
+
+<ul>
+  <li>Introdução: contexto e objetivo</li>
+  <li>Desenvolvimento: passos, exemplos e decisões</li>
+  <li>Conclusão: resumo e próximos passos</li>
+</ul>
+
+<p>Boas práticas:</p>
+
+<ul>
+  <li>Use títulos curtos e claros</li>
+  <li>Escreva parágrafos pequenos</li>
+  <li>Priorize listas para instruções</li>
+  <li>Evite links quebrados</li>
+</ul>
+
+<h2 id="4-revise-com-checklist-rápido">4) Revise com checklist rápido</h2>
+
+<p>Antes de publicar, confirme:</p>
+
+<ul>
+  <li>O <code class="language-plaintext highlighter-rouge">title</code> está preenchido no front matter</li>
+  <li>A <code class="language-plaintext highlighter-rouge">date</code> está correta</li>
+  <li>O <code class="language-plaintext highlighter-rouge">excerpt</code> resume o texto em 1 frase</li>
+  <li>A <code class="language-plaintext highlighter-rouge">image</code> existe em <a href="src/images">src/images</a></li>
+  <li>Não há placeholders (ex.: “escreva aqui”)</li>
+  <li>Links externos usam HTTPS</li>
+</ul>
+
+<h2 id="5-teste-no-ambiente-local">5) Teste no ambiente local</h2>
+
+<p>Com o servidor em hot reload:</p>
+
+<ul>
+  <li>Salve o arquivo</li>
+  <li>Abra <code class="language-plaintext highlighter-rouge">http://localhost:4000/blog.html</code></li>
+  <li>Verifique se o card do post apareceu com título e resumo</li>
+  <li>Abra o post e valide leitura, formatação e links</li>
+</ul>
+
+<h2 id="6-publique">6) Publique</h2>
+
+<p>Se você começou em <code class="language-plaintext highlighter-rouge">src/_drafts</code>, mova para <code class="language-plaintext highlighter-rouge">src/_posts</code> com o nome final.</p>
+
+<p>Depois:</p>
+
+<ol>
+  <li>Faça commit das alterações.</li>
+  <li>Faça push para o repositório.</li>
+  <li>Valide no ambiente publicado.</li>
+</ol>
+
+<h2 id="erros-comuns-e-como-evitar">Erros comuns e como evitar</h2>
+
+<ul>
+  <li>Post não aparece no blog: faltou <code class="language-plaintext highlighter-rouge">title</code> no front matter.</li>
+  <li>Link do post errado: nome do arquivo fora do padrão de data.</li>
+  <li>Card sem resumo útil: <code class="language-plaintext highlighter-rouge">excerpt</code> vazio ou muito genérico.</li>
+  <li>Imagem quebrada: caminho incorreto em <code class="language-plaintext highlighter-rouge">image</code>.</li>
+</ul>
+
+<h2 id="modelo-mínimo-reutilizável">Modelo mínimo reutilizável</h2>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Título</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">post"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2026-08-16</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">tag1</span><span class="pi">,</span> <span class="nv">tag2</span><span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">images/pic01.jpg</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Resumo</span><span class="nv"> </span><span class="s">curto</span><span class="nv"> </span><span class="s">para</span><span class="nv"> </span><span class="s">o</span><span class="nv"> </span><span class="s">card"</span>
+<span class="nn">---</span>
+
+<span class="gu">## Introdução</span>
+
+<span class="gu">## Desenvolvimento</span>
+
+<span class="gu">## Conclusão</span>
+</code></pre></div></div>
+
+<p>Com esse fluxo, qualquer novo post passa a aparecer automaticamente em <a href="src/blog.html">src/blog.html</a>, mantendo o padrão do site com menos retrabalho.</p>]]></content><author><name></name></author><category term="blog" /><category term="jekyll" /><category term="escrita" /><category term="publicacao" /><summary type="html"><![CDATA[Um passo a passo simples para criar, revisar e publicar novos posts no portfólio sem quebrar o padrão do site.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/images/pic02.jpg" /><media:content medium="image" url="http://0.0.0.0:4000/images/pic02.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

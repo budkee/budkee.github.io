@@ -1,0 +1,18 @@
+<header id="header"{% if page.header_class %} class="{{ page.header_class | escape }}"{% endif %}>
+	<a href="{{ page.logo_href | default: 'index.html' | relative_url | escape }}" class="logo"><strong>{{ page.logo_text | default: 'Portfólio' | escape }}</strong> <span>{{ page.logo_subtitle | default: 'de Projetos' | escape }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<nav id="menu">
+	<ul class="links">
+		<li><a href="{{ 'index.html' | relative_url }}">Home</a></li>
+		<li><a href="{{ 'em-andamento.html' | relative_url }}">Projetos</a></li>
+		<li><a href="{{ 'blog.html' | relative_url }}">Blog</a></li>
+		<li><a href="{{ 'sobre.html' | relative_url }}">Carreira</a></li>
+	</ul>
+	<ul class="actions stacked">
+		<!-- Reserved for future CTA actions -->
+	</ul>
+</nav>

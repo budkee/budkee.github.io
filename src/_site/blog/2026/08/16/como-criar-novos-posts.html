@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Guia prático: como criar e publicar novos posts | Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header + Menu -->
+					<header id="header">
+	<a href="/blog.html" class="logo"><strong>Blog</strong> <span>on Going..</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<nav id="menu">
+	<ul class="links">
+		<li><a href="/index.html">Home</a></li>
+		<li><a href="/em-andamento.html">Projetos</a></li>
+		<li><a href="/blog.html">Blog</a></li>
+		<li><a href="/sobre.html">Carreira</a></li>
+	</ul>
+	<ul class="actions stacked">
+		<!-- Reserved for future CTA actions -->
+	</ul>
+</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h1>Guia prático: como criar e publicar novos posts</h1>
+									<p>16/08/2026</p>
+									
+									<p>
+										
+											<span>#jekyll</span>
+										
+											<span>#escrita</span>
+										
+											<span>#publicacao</span>
+										
+									</p>
+									
+								</header>
+
+								
+								<span class="image main">
+									<img src="/images/pic02.jpg" alt="Guia prático: como criar e publicar novos posts" />
+								</span>
+								
+
+								<h2 id="objetivo">Objetivo</h2>
+
+<p>Este guia existe para facilitar o processo de criação de novos posts no portfólio, mantendo padronização visual, consistência de conteúdo e publicação segura.</p>
+
+<h2 id="1-crie-a-base-do-post">1) Crie a base do post</h2>
+
+<p>Comece a partir do modelo em <a href="src/_drafts/post-template.md">src/_drafts/post-template.md</a>.</p>
+
+<p>Campos obrigatórios no front matter:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">layout: post</code></li>
+  <li><code class="language-plaintext highlighter-rouge">title: "..."</code></li>
+  <li><code class="language-plaintext highlighter-rouge">date: YYYY-MM-DD</code></li>
+</ul>
+
+<p>Campos recomendados:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">categories: blog</code></li>
+  <li><code class="language-plaintext highlighter-rouge">tags: [tag1, tag2]</code></li>
+  <li><code class="language-plaintext highlighter-rouge">image: images/pic01.jpg</code></li>
+  <li><code class="language-plaintext highlighter-rouge">excerpt: "Resumo curto para o card da página de blog"</code></li>
+</ul>
+
+<h2 id="2-nomeie-o-arquivo-corretamente">2) Nomeie o arquivo corretamente</h2>
+
+<p>Use o padrão:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YYYY-MM-DD-slug-do-post.md</code></p>
+
+<p>Exemplo:</p>
+
+<p><code class="language-plaintext highlighter-rouge">2026-08-16-como-criar-novos-posts.md</code></p>
+
+<h2 id="3-estruture-o-conteúdo">3) Estruture o conteúdo</h2>
+
+<p>Sugestão de estrutura:</p>
+
+<ul>
+  <li>Introdução: contexto e objetivo</li>
+  <li>Desenvolvimento: passos, exemplos e decisões</li>
+  <li>Conclusão: resumo e próximos passos</li>
+</ul>
+
+<p>Boas práticas:</p>
+
+<ul>
+  <li>Use títulos curtos e claros</li>
+  <li>Escreva parágrafos pequenos</li>
+  <li>Priorize listas para instruções</li>
+  <li>Evite links quebrados</li>
+</ul>
+
+<h2 id="4-revise-com-checklist-rápido">4) Revise com checklist rápido</h2>
+
+<p>Antes de publicar, confirme:</p>
+
+<ul>
+  <li>O <code class="language-plaintext highlighter-rouge">title</code> está preenchido no front matter</li>
+  <li>A <code class="language-plaintext highlighter-rouge">date</code> está correta</li>
+  <li>O <code class="language-plaintext highlighter-rouge">excerpt</code> resume o texto em 1 frase</li>
+  <li>A <code class="language-plaintext highlighter-rouge">image</code> existe em <a href="src/images">src/images</a></li>
+  <li>Não há placeholders (ex.: “escreva aqui”)</li>
+  <li>Links externos usam HTTPS</li>
+</ul>
+
+<h2 id="5-teste-no-ambiente-local">5) Teste no ambiente local</h2>
+
+<p>Com o servidor em hot reload:</p>
+
+<ul>
+  <li>Salve o arquivo</li>
+  <li>Abra <code class="language-plaintext highlighter-rouge">http://localhost:4000/blog.html</code></li>
+  <li>Verifique se o card do post apareceu com título e resumo</li>
+  <li>Abra o post e valide leitura, formatação e links</li>
+</ul>
+
+<h2 id="6-publique">6) Publique</h2>
+
+<p>Se você começou em <code class="language-plaintext highlighter-rouge">src/_drafts</code>, mova para <code class="language-plaintext highlighter-rouge">src/_posts</code> com o nome final.</p>
+
+<p>Depois:</p>
+
+<ol>
+  <li>Faça commit das alterações.</li>
+  <li>Faça push para o repositório.</li>
+  <li>Valide no ambiente publicado.</li>
+</ol>
+
+<h2 id="erros-comuns-e-como-evitar">Erros comuns e como evitar</h2>
+
+<ul>
+  <li>Post não aparece no blog: faltou <code class="language-plaintext highlighter-rouge">title</code> no front matter.</li>
+  <li>Link do post errado: nome do arquivo fora do padrão de data.</li>
+  <li>Card sem resumo útil: <code class="language-plaintext highlighter-rouge">excerpt</code> vazio ou muito genérico.</li>
+  <li>Imagem quebrada: caminho incorreto em <code class="language-plaintext highlighter-rouge">image</code>.</li>
+</ul>
+
+<h2 id="modelo-mínimo-reutilizável">Modelo mínimo reutilizável</h2>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Título</span><span class="nv"> </span><span class="s">do</span><span class="nv"> </span><span class="s">post"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2026-08-16</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">tag1</span><span class="pi">,</span> <span class="nv">tag2</span><span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">images/pic01.jpg</span>
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Resumo</span><span class="nv"> </span><span class="s">curto</span><span class="nv"> </span><span class="s">para</span><span class="nv"> </span><span class="s">o</span><span class="nv"> </span><span class="s">card"</span>
+<span class="nn">---</span>
+
+<span class="gu">## Introdução</span>
+
+<span class="gu">## Desenvolvimento</span>
+
+<span class="gu">## Conclusão</span>
+</code></pre></div></div>
+
+<p>Com esse fluxo, qualquer novo post passa a aparecer automaticamente em <a href="src/blog.html">src/blog.html</a>, mantendo o padrão do site com menos retrabalho.</p>
+
+							</div>
+						</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+	<div class="inner">
+		<ul class="icons">
+			<li><a href="https://twitter.com/_budke" class="icon brands alt fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="https://www.instagram.com/mandakaeu/" class="icon brands alt fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span class="label">Instagram</span></a></li>
+			<li><a href="https://github.com/budkee" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><span class="label">GitHub</span></a></li>
+			<li><a href="https://www.linkedin.com/in/kaebudke/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span class="label">LinkedIn</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Copyright</li><li>Design by <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+		</ul>
+	</div>
+</footer>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>

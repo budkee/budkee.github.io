@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ page.title | escape }} | Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{% include head-favicon.html %}
+		<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+		<noscript><link rel="stylesheet" href="{{ '/assets/css/noscript.css' | relative_url }}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header + Menu -->
+					{% include header-menu.html %}
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h1>{{ page.title | escape }}</h1>
+									{% if page.date %}<p>{{ page.date | date: "%d/%m/%Y" }}</p>{% endif %}
+									{% if page.tags and page.tags.size > 0 %}
+									<p>
+										{% for tag in page.tags %}
+											<span>#{{ tag | escape }}</span>{% unless forloop.last %} {% endunless %}
+										{% endfor %}
+									</p>
+									{% endif %}
+								</header>
+
+								{% if page.image %}
+								<span class="image main">
+									<img src="{{ page.image | relative_url | escape }}" alt="{{ page.title | escape }}" />
+								</span>
+								{% endif %}
+
+								{{ content }}
+							</div>
+						</section>
+					</div>
+
+				<!-- Footer -->
+					{% include site-footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/jquery.scrolly.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/browser.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/breakpoints.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+	</body>
+</html>

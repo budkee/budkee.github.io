@@ -18,8 +18,8 @@
 lsi: false
 # Desativa plugins inseguros
 safe: true
-# Recompila a cada alteração
-incremental: true
+# Recompila a cada alteração. Evite incremental para garantir atualização de páginas com loops de posts.
+incremental: false
 
 # Configuração do destaque de sintaxe para o Rouge
 highlighter: rouge
@@ -45,7 +45,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bem-vinde ao meu portfólio de projetos pessoais. Aqui você pode ver um pouco do quê e do como desenvolvo meus projetos. Também escrevo sobre alguns 'bizus' que passei e passo ao ter que lidar a minha stack, cê pode tá conferindo aqui. 
 url: "https://budkee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: budkee.me
+domain: 
 
 city: Campo Grande
 state: MS
@@ -63,7 +63,7 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   GitHub: https://github.com/budkee 
-  Instagram: https://www.instagram.com/budke_/
+  Instagram: https://www.instagram.com/mandakaeu/
   LinkedIn: https://www.linkedin.com/in/kaebudke/
   Twitter: https://twitter.com/_budke
 
@@ -74,6 +74,18 @@ plugins:
 markdown: kramdown
 sass:
   style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      logo_text: "Blog"
+      logo_subtitle: "on Going.."
+      logo_href: "blog.html"
+      categories: blog
+      image: images/pic01.jpg
 
 
 # Exclude from processing.
