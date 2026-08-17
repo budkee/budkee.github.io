@@ -30,9 +30,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
 
     steps:
       - name: Checkout
@@ -48,6 +45,7 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
+          working-directory: ./src
       
       - name: Setup Pages
         id: pages
@@ -62,7 +60,9 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-
+        with:
+          path: ./src/_site
+          
   # Deployment job
   deploy:
     environment:
