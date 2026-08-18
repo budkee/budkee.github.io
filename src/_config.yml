@@ -104,8 +104,8 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - vendor/
 #   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
+  # - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
